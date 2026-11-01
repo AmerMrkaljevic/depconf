@@ -1,0 +1,10 @@
+# One owner/repo per line (same format GitHub uses in a URL path).
+# Lines starting with # and blank lines are ignored.
+#
+# Point this at your own org's repos for a supply-chain audit, e.g.:
+#   gh repo list your-org --limit 1000 --json nameWithOwner -q '.[].nameWithOwner' > repos.txt
+#
+# This file ships a couple of small, well-known public repos just so you can
+# see depconf run end to end without needing your own list first:
+
+sindresorhus/got
